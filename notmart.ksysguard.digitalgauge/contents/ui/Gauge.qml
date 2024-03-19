@@ -22,7 +22,7 @@
 import QtQuick 2.9
 import QtQuick.Layouts 1.1
 import QtQuick.Controls 2.2 as Controls
-import QtGraphicalEffects 1.12
+import Qt5Compat.GraphicalEffects
 
 import org.kde.kirigami as Kirigami
 
