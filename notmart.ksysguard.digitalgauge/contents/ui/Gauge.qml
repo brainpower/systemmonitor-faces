@@ -38,8 +38,8 @@ import org.kde.ksvg as KSvg
 Item {
     id: chart
 
-    Layout.minimumWidth: root.formFactor != backgrounds.Sensorbackground.Vertical ? Kirigami.Units.gridUnit * 4 : Kirigami.Units.gridUnit
-    Layout.minimumHeight: root.formFactor == backgrounds.Sensorbackground.Vertical ? width : Kirigami.Units.gridUnit
+    Layout.minimumWidth: root.formFactor != Faces.SensorFace.Vertical ? Kirigami.Units.gridUnit * 4 : Kirigami.Units.gridUnit
+    Layout.minimumHeight: root.formFactor == Faces.SensorFace.Vertical ? width : Kirigami.Units.gridUnit
     Layout.maximumHeight: width / gaugeSvg.ratio
 
 
