@@ -43,7 +43,7 @@ Item {
     Layout.maximumHeight: width / gaugeSvg.ratio
 
 
-    PlasmaCore.Svg {
+    KSvg.Svg {
         id: gaugeSvg
         imagePath: Qt.resolvedUrl("gauge.svg")
         property real ratio
@@ -52,7 +52,7 @@ Item {
         }
     }
 
-    PlasmaCore.SvgItem {
+    KSvg.SvgItem {
         id: background
         width: foreground.width
         height: foreground.height
@@ -72,7 +72,7 @@ Item {
         height:  parent.height * gaugeSvg.ratio
         //layer.enabled: true
 
-        PlasmaCore.SvgItem {
+        KSvg.SvgItem {
             id: foreground
             visible: false
             width: Math.min(parent.width, parent.height)
@@ -182,7 +182,7 @@ Item {
                         sensorId: modelData
                     }
 
-                    PlasmaCore.SvgItem {
+                    KSvg.SvgItem {
                         id: pointerSvg
                         visible: false
                         anchors.fill: parent
