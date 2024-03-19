@@ -1,0 +1,23 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "mart@kde.org",
+                "Name": "Marco Martin"
+            }
+        ],
+        "Description": "A face for the System Monitor widget that uses an lcd looking gauge",
+        "Icon": "tools-wizard",
+        "Id": "notmart.ksysguard.digitalgauge",
+        "License": "LGPLv2+",
+        "Name": "Digital Gauge",
+        "ServiceTypes": [
+            "KSysguard/SensorFace"
+        ],
+        "Version": "1.7",
+        "Website": "https://kde.org"
+    },
+    "X-KDE-ParentApp": "org.kde.plasmashell",
+    "KPackageStructure": "KSysguard/SensorFace",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
