@@ -24,13 +24,13 @@ import QtQuick 2.9
 import QtQuick.Controls 2.2 as Controls
 import QtQuick.Layouts 1.1
 
-import org.kde.kirigami 2.8 as Kirigami
+import org.kde.kirigami as Kirigami
 
-import org.kde.ksysguard.sensors 1.0 as Sensors
-import org.kde.ksysguard.faces 1.0 as Faces
+import org.kde.ksysguard.sensors as Sensors
+import org.kde.ksysguard.faces as Faces
 
-import org.kde.quickcharts 1.0 as Charts
-import org.kde.quickcharts.controls 1.0 as ChartControls
+import org.kde.quickcharts as Charts
+import org.kde.quickcharts.controls as ChartControls
 
 Faces.SensorFace {
     id: root
