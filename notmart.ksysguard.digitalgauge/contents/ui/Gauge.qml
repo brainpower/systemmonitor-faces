@@ -141,12 +141,12 @@ Item {
             }
             chart.nameSource: Charts.ModelSource {
                 roleName: "Name";
-                model: valueSources[0].model;
+                model: pie.valueSources[0].model;
                 indexColumns: true
             }
             chart.shortNameSource: Charts.ModelSource {
                 roleName: "ShortName";
-                model: valueSources[0].model;
+                model: pie.valueSources[0].model;
                 indexColumns: true
             }
             chart.colorSource: root.colorSource
@@ -224,7 +224,7 @@ Item {
 
     Sensors.Sensor {
         id: totalSensor
-        sensorId: root.controller.totalSensors[0]
+        sensorId: root.controller.totalSensors && root.controller.totalSensors.length > 0 && root.controller.totalSensors[0]
     }
 }
 
